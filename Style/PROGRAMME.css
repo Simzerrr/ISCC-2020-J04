@@ -1,47 +1,54 @@
-<HTML lang="fr">
-    <body> 
-    <head>
-     <link rel="stylesheet" href="vitrine2.css">
-     <title>programme</title>
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-     
-    <header>
-     <h1>PROGRAMME</h1>
-     
-    </header>
-    <section class="planning">
-     <section class="table">
-     
-     <table>
-     
-     <thead><tr><td>DATE</td><td>PROGRAMME</td></tr></thead>
-     <tbody>
-     <tr><td>Jour 1</td><td>Programme Accueil des apprenants Installation et Conférence </td></tr>
-     <tr><td>Jour 2</td><td>HTML-1 </td></tr>
-     <tr><td>Jour 3</td><td>HTML-2</td></tr>
-     <tr><td>Jour 4</td><td>HTML-3 et Conférence </td></tr>
-     <tr><td>Jour 5</td><td>PHP-1</td></tr>
-     
-     <tr><td>Jour 6</td><td>PHP-2 </td></tr>
-     <tr><td>Jour 7</td><td>PHP-3 </td></tr>
-     <tr><td>Jour 8</td><td>PHP-4 </td></tr>
-     <tr><td>Jour 9</td><td>PHP-5 </td></tr>
-     <tr><td>Jour 10</td><td>SQL-1 </td></tr>
-     
-     <tr><td>Jour 11</td><td>SQL-2 </td></tr>
-     <tr><td>Jour 12</td><td>PSQL-3 et Conférence</td></tr>
-     <tr><td>Jour 13</td><td>Projet MyDevBlog </td></tr>
-     <tr><td>Jour 14</td><td>Projet MyDevBlog et Conférence </td></tr>
-     <tr><td>Jour 15</td><td>Projet MyDevBlog </td></tr>
-     
-     <tr><td>Jour 16</td><td>Soutenance Projet MyDevBlog </td></tr>
-     </tbody>
-     </section>
-     
-     </table>
-     </section>
-     
-    </body>
-    </HTML>
+body {
+ display: block;
+ border-color: black;
+ border-style: solid;
+ border-width: 2px;
+ background-color: #ebebeb;
+}
+ 
+ @font-face
+ 
+ {
+ font-family: "opensans";
+ src: url("../OpenSans-SemiBold.ttf");
+ font-stretch: normal;
+ font-weight: normal;
+ font-size : 14px;
+ }
+ h1 {
+ font-family: "opensans";
+ font-size : 25px;
+ color: grey;
+ text-align: center;
+ 
+ }
+ section.planning{
+ text-align: center;
+ }
+ section.table {
+ text-align: center;
+ border: medium solid #7ccee7;
+ border-collapse: collapse;
+ width: 100%;
+ border-spacing: 1rem;
+ overflow-x: hidden;
+ overflow-y: auto;
+ height: 200px;
+ }
+ 
+ tr {
+ border: thin solid #7ccee7;
+ width: 10%;
+ padding: 5px;
+ background-color: #ffffff;
+ }
+ 
+ td {
+ font-family: sans-serif;
+ border: thin solid #7ccee7;
+ width: 10%;
+ padding: 5px;
+ text-align: left;
+ 
+ }
+ 
